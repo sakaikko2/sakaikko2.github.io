@@ -279,6 +279,27 @@
       font-size: 1.22rem;
     }
 
+    .article-title {
+      color: inherit;
+      text-decoration-line: underline;
+      text-decoration-thickness: .08em;
+      text-underline-offset: .22em;
+      text-decoration-color: rgba(125, 91, 145, .42);
+    }
+
+    .article-title::after {
+      content: " ↗";
+      color: var(--accent);
+      font-size: .8em;
+      white-space: nowrap;
+    }
+
+    .article-title:hover,
+    .article-title:focus-visible {
+      color: var(--accent);
+      text-decoration-color: currentColor;
+    }
+
     .article p {
       margin: 0;
       color: var(--muted);
@@ -515,7 +536,7 @@
           <article class="article">
             <div class="article-label">中心思想</div>
             <div>
-              <h3>ロゴスに覆われた世界からピュシスを救い出す作業　私の場合</h3>
+              <h3><a class="article-title" href="https://note.com/henkaku_suki/n/n7ca907a0a42e" target="_blank" rel="noopener noreferrer">ロゴスに覆われた世界からピュシスを救い出す作業　私の場合</a></h3>
               <p>
                 長年の痛みと筋肉の観察を、まだ言葉になっていない生命現象を再び言葉へ変える作業として捉え直します。
               </p>
@@ -526,7 +547,7 @@
           <article class="article">
             <div class="article-label">人柄と生活史</div>
             <div>
-              <h3>『生きのびるための事務』　父はtailorなのですが。</h3>
+              <h3><a class="article-title" href="https://note.com/henkaku_suki/n/n0bdbb30c19f4" target="_blank" rel="noopener noreferrer">『生きのびるための事務』　父はtailorなのですが。</a></h3>
               <p>
                 一冊の本から、父が仕立ての仕事を選び、時代に合わせて工夫しながら生きた意味を、娘の記憶で組み立て直します。
               </p>
@@ -537,7 +558,7 @@
           <article class="article">
             <div class="article-label">世界観</div>
             <div>
-              <h3>「万葉の日本」と西洋哲学の違い</h3>
+              <h3><a class="article-title" href="https://note.com/henkaku_suki/n/n6de52085abfd" target="_blank" rel="noopener noreferrer">「万葉の日本」と西洋哲学の違い</a></h3>
               <p>
                 「なにものかについての意識」ではなく、「なにものかと共にある意識」という言葉から、自然と人間の関係を考えます。
               </p>
@@ -548,7 +569,7 @@
           <article class="article">
             <div class="article-label">年齢と変化</div>
             <div>
-              <h3>村上春樹『ノルウェイの森』を「還暦過ぎオバサン」が初めて読む</h3>
+              <h3><a class="article-title" href="https://note.com/henkaku_suki/n/nf680e8ccb714" target="_blank" rel="noopener noreferrer">村上春樹『ノルウェイの森』を「還暦過ぎオバサン」が初めて読む</a></h3>
               <p>
                 若い頃には読めなかった物語が、今の自分には自然に感じられる。その驚きから、自分自身の変化を見つめます。
               </p>
@@ -559,7 +580,7 @@
           <article class="article">
             <div class="article-label">AIと社会</div>
             <div>
-              <h3>ジャーナリズムの一翼となる？　シチズンサイエンス×AI</h3>
+              <h3><a class="article-title" href="https://note.com/henkaku_suki/n/n2d9630fc1744" target="_blank" rel="noopener noreferrer">ジャーナリズムの一翼となる？　シチズンサイエンス×AI</a></h3>
               <p>
                 市民が集める情報とAI解析を組み合わせ、既存の報道だけでは見えない事実を見つけられないかと考えます。
               </p>
